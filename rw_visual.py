@@ -11,3 +11,10 @@ while True:
     keep_running = input("Make another walk?(y/n)")
     if keep_running == 'n':
         break
+
+# 终端显示:
+# D:\Github_zack\Requests>python d:/Github_zack/Matplotlib/rw_visual.py
+# Make another walk?(y/n)y
+# Make another walk?(y/n)y
+# Make another walk?(y/n)y
+# Make another walk?(y/n)n
