@@ -20,7 +20,12 @@ x_values = list(range(1,1001))
 
 y_values = [x**2 for x in x_values]
 
-plt.scatter(x_values,y_values,s=1)
+# 删除黑色的轮廓edgecolor = 'none'
+# plt.scatter(x_values,y_values,c = 'red',edgecolor='none',s=60)
+
+# 使用颜色映射
+plt.scatter(x_values,y_values,c = y_values,cmap=plt.cm.Blues,edgecolor='none',s=30)
+
 #设置每个坐标轴的取值范围
 plt.axis([0,1100,0,1100000])
 plt.show()
