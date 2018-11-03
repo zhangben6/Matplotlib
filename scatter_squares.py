@@ -28,4 +28,8 @@ plt.scatter(x_values,y_values,c = y_values,cmap=plt.cm.Blues,edgecolor='none',s=
 
 #设置每个坐标轴的取值范围
 plt.axis([0,1100,0,1100000])
+
 plt.show()
+
+# 自动保存图表操作
+# plt.savefig("Square_plot.png")
